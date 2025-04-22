@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MultiSearch Extension</title>
+  <style>
+    body {
+      width: 300px;
+      height: 200px;
+      margin: 0;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>Search Engines</h2>
+  
+  <input type="text" id="searchQuery" placeholder="Enter search query...">
+  
+  <select id="searchEngine">
+    <option value="brave" selected data-action="https://search.brave.com/search?q=">Brave</option>
+    <option value="startpage" data-action="https://www.startpage.com/do/search?query=">Startpage</option>
+    <option value="google" data-action="https://www.google.com/search?q=">Google</option>
+    <option value="bing" data-action="https://www.bing.com/search?q=">Bing</option>
+    <option value="duckduckgo" data-action="https://duckduckgo.com/?q=">DuckDuckGo</option>
+  </select>
+  
+  <button id="searchBtn">Search</button>
+
+
+    <script src="popup.js"></script>
+</body>
+</html>
+
