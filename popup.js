@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "brave": "https://search.brave.com/search?q=",
         "startpage": "https://www.startpage.com/do/search?query=",
         "google": "https://www.google.com/search?q=",
+        "duckduckgo": "https://duckduckgo.com/?q=",
+        "bing": "https://www.bing.com/search?q=",
         // Add more engines as needed
       };
 

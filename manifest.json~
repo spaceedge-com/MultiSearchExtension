@@ -11,9 +11,6 @@
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html"
-  }, 
-  "icons": {
-      "128": "icon128.png"
   },
   "background": {
     "service_worker": "background.js"

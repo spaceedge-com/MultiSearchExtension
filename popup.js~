@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
       alert('Please enter a search query.');
       return;
     }
-    searchError.style.visibility = 'hidden';
 
     if (query) {
       const engineUrls = {
         "brave": "https://search.brave.com/search?q=",
         "startpage": "https://www.startpage.com/do/search?query=",
         "google": "https://www.google.com/search?q=",
+        "duckduckgo": "https://duckduckgo.com/?q=",
         // Add more engines as needed
       };
 

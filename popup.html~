@@ -38,7 +38,7 @@
 
   <div class="search-container">
   
-  <h2>MultiSearch</h2>
+  <h3>MultiSearch</h3>
   
   <input type="text" id="searchQuery" placeholder="Enter search query...">
   
